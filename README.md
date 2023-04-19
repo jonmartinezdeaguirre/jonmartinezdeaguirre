@@ -37,7 +37,7 @@ class Account(Projects):
 
 <details>
 
-<summary>Extra</summary>
+<summary>Show projects</summary>
 
 <br>
 
