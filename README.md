@@ -64,6 +64,6 @@ class Account:
 
 <br>
 
-> [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jon-martinez-de-aguirre/)
+> [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jon-martinez-de-aguirre-yeregui/)
 > 
 > [![Gmail](https://img.shields.io/badge/-Gmail-red?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:mtzjon10@gmail.com)
