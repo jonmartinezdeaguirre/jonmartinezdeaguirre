@@ -1,7 +1,9 @@
 ## My GitHub Account
 
+> ### Content
+
 ```python
-class Account:
+class Account(Projects):
   def __init__(self):
     '''
     This is my personal GitHub account, which hosts all the projects I'm working on.
@@ -21,6 +23,7 @@ class Account:
         JavaScript (Node.js, Three.js, React.js, etc.), SQL, Python (Flask, Dash, etc.), HTML, CSS
     '''
     
+    super().__init__(self)
     self.start()
     
   def start(self):
@@ -28,6 +31,22 @@ class Account:
     self.data_science()
     self.artificial_intelligence()
     self.web_development()
+```
+
+<br>
+
+<details>
+
+<summary>Extra</summary>
+
+<br>
+
+> ### Projects
+
+```python
+class Projects:
+  def __init__(self):
+    pass
     
   def robotics(self):
     import rospy
@@ -55,6 +74,8 @@ class Account:
     
     app = Flask(__name__)
 ```
+
+</details>
 
 # 
 
