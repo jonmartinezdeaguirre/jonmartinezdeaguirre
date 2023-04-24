@@ -27,7 +27,6 @@ class Account(Projects):
   def start(self):
     self.robotics()
     self.data_science()
-    self.artificial_intelligence()
     self.web_development()
 ```
 
