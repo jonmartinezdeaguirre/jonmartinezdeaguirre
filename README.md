@@ -13,10 +13,8 @@ class Account(Projects):
       Robotics:
         ROS, Reinforcement Learning, Computer Vision, Perception
         
-      Data Science:
+      Data Science and Artificial Intelligence:
         Data processing and analysis with Python (Numpy, Pandas, etc.)
-        
-      Artificial Intelligence:
         Machine and Deep Learning based on Torch, Keras and TensorFlow
       
       Web Development:
@@ -46,32 +44,32 @@ class Account(Projects):
 ```python
 class Projects:
   def __init__(self):
-    pass
-    
-  def robotics(self):
+    # ROS environment
     import rospy
-    
-    rospy.init_node('robotics')
-    
-  def data_science(self):
+  
+    # Data Science and Deep Learning packages
     import numpy as np
     import pandas as pd
-    
-    df = pd.DataFrame({
-      'name': ['Jon'],
-      'surname': ['Martínez de Aguirre']
-    })
-    
-  def artificial_intelligence(self):
+  
     from torch import nn
     import tensorflow as tf
-    
-    torch_model = nn.Module()
-    tf_model = tf.Model()
-    
-  def web_development(self):
+  
+    # WebDev package
     from flask import Flask
     
+  def robotics(self):
+    rospy.init_node('turtlebot3_line_follower')
+    
+  def data_science(self):
+    df = pd.DataFrame({
+      'repo': [''],
+      'type': ['']
+    })
+  
+    torch_model = nn.Module()
+    tf_model = tf.keras.Model()
+    
+  def web_development(self):
     app = Flask(__name__)
 ```
 
