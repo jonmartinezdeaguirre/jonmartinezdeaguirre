@@ -3,6 +3,8 @@
 > ### Content
 
 ```python
+from projects import Projects
+
 class Account(Projects):
   def __init__(self):
     '''
@@ -41,21 +43,20 @@ class Account(Projects):
 > ### Projects
 
 ```python
-class Projects:
-  def __init__(self):
-    # ROS environment
-    import rospy
+# ROS environment
+import rospy
+
+# Data Science and Deep Learning packages
+import numpy as np
+import pandas as pd
+
+from torch import nn
+import tensorflow as tf
   
-    # Data Science and Deep Learning packages
-    import numpy as np
-    import pandas as pd
-  
-    from torch import nn
-    import tensorflow as tf
-  
-    # WebDev package
-    from flask import Flask
+# WebDev package
+from flask import Flask
     
+class Projects:
   def robotics(self):
     rospy.init_node('turtlebot3_line_follower')
     
